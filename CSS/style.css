@@ -1,11 +1,12 @@
 /* 全画面共通 */
-body{
-  padding: 0;
-  margin: 0;
-}
+
+
 
 a {
   text-decoration: none;
+}
+.mainimage img{
+width:100%;
 }
 
 
