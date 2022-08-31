@@ -24,7 +24,7 @@ ul{
 h1{
   font-weight: normal;
   font-size:30px;
-
+  font-family: 'Alegreya Sans SC', sans-serif;
 
 }
 
@@ -32,14 +32,21 @@ h2{
   
   font-weight:normal;
   font-size:16px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
 
+h3{
+  font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 li {
   list-style-type:none;
+  font-family: 'Alegreya Sans SC', sans-serif;
 }
 
-
+a{
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
 
 /* school閉じる・もっとみる */
 .txt-hide-1{
@@ -97,11 +104,11 @@ content: "close";
   content: "close";
   }
   
-/* now閉じる */
-.txt-hide-3{
-  display: none;
-  }
-  
+  /* now閉じる */
+  .txt-hide-3{
+    display: none;
+    }
+    
   button.more-3 {
   width: 120px;
   margin: 20px auto;
@@ -124,6 +131,35 @@ content: "close";
   button.more-3.on-click::after{
   content: "close";
   }
+
+  /* hobby閉じる */
+  .txt-hide-4{
+    display: none;
+    }
+    
+  button.more-4 {
+  width: 120px;
+  margin: 20px auto;
+  display: block;
+  background-color:rgba(205, 201, 201, 0.918);
+  color: #fff;
+  padding:10px 15px;
+  border: none;
+  outline: 0;
+  transition: .5s;
+  -erbkit-transition: .5s;
+  }
+   
+  button.more-4::after {
+  content: "view more";
+  transition: .2s;
+  -erbkit-transition: .2s;
+  }
+  
+  button.more-4.on-click::after{
+  content: "close";
+  }
+  
   
 /* リンクのボタン */
 a.btn-border {
@@ -284,7 +320,7 @@ mainのスクロール */
 } 
 
 
-#header:before{
+#header:after{
   content: '';
   position:fixed;
   top:0;
@@ -292,11 +328,9 @@ mainのスクロール */
   z-index:-1;
   width:100%;
   height: 100vh;
-
   /*背景画像設定*/
-  background-image: url(../img/main-6.gif);
- 
- 
+  background-image: url(../img/0402FC2A-D2E1-43DB-B40B-FF2C1CDF50FF_1_105_c.jpeg);
+  background-size:cover;
 }
 
 #container{
