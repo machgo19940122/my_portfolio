@@ -1,6 +1,8 @@
 /* 全画面共通 */
 
-
+*{
+  font-family: TsukuARdGothic-Regular;
+}
 
 a {
   text-decoration: none;
@@ -31,3 +33,105 @@ li {
 
 
 
+/* school閉じる・もっとみる */
+.txt-hide-1{
+display: none;
+}
+
+button.more-1 {
+width: 120px;
+margin: 20px auto;
+display: block;
+background-color: #666;
+color: #fff;
+padding:10px 15px;
+border: none;
+outline: 0;
+transition: .5s;
+-erbkit-transition: .5s;
+}
+ 
+button.more-1::after {
+content: "viewmore";
+transition: .2s;
+-erbkit-transition: .2s;
+}
+
+button.more-1.on-click::after{
+content: "close";
+}
+
+/* work 閉じる・もっとみる*/
+.txt-hide-2{
+  display: none;
+  }
+  
+  button.more-2 {
+  width: 120px;
+  margin: 20px auto;
+  display: block;
+  background-color:#666;
+  color: #fff;
+  padding:10px 15px;
+  border: none;
+  outline: 0;
+  transition: .5s;
+  -erbkit-transition: .5s;
+  }
+   
+  button.more-2::after {
+  content: "viewmore";
+  transition: .2s;
+  -erbkit-transition: .2s;
+  }
+  
+  button.more-2.on-click::after{
+  content: "close";
+  }
+  
+/* now閉じる */
+.txt-hide-3{
+  display: none;
+  }
+  
+  button.more-3 {
+  width: 120px;
+  margin: 20px auto;
+  display: block;
+  background-color: #666;
+  color: #fff;
+  padding:10px 15px;
+  border: none;
+  outline: 0;
+  transition: .5s;
+  -erbkit-transition: .5s;
+  }
+   
+  button.more-3::after {
+  content: "view more";
+  transition: .2s;
+  -erbkit-transition: .2s;
+  }
+  
+  button.more-3.on-click::after{
+  content: "close";
+  }
+  
+/* リンクのボタン */
+a.btn-border {
+  border:1px solid #000;
+  border-radius: 0;
+  background: #fff;
+}
+
+a.btn-border:hover {
+  color: #fff;
+  background: #000;
+}
+
+
+
+
+.yellow{
+  background-color: yellow;
+}
