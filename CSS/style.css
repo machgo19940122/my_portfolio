@@ -345,6 +345,10 @@ mainのスクロール */
     #header:before{
   height: 90vh;    
     }
-    
 }
 
+/* aboutme */
+.max-width50{
+  max-width:70%;
+  margin:auto;
+}
